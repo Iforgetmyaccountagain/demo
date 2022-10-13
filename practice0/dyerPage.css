@@ -1,0 +1,92 @@
+.body {
+    margin: 0;
+    background-color: rgb(240, 233, 233);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+    padding: 0;
+
+    font-style: Gill Sans, sans-serif;
+
+
+
+}
+
+
+
+
+.ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+
+
+}
+
+.item {
+
+    background-color: azure;
+    font-size: larger;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 80px;
+    height: 25px;
+    justify-self: center;
+
+
+
+}
+
+/*
+.ul:sixth-child {
+    display: flex;
+}
+*/
+
+
+
+.sec-container {
+    margin: auto;
+    padding: 20px;
+}
+
+.para1 {
+    font-size: 200%;
+}
+
+/*
+.clock {
+    float: left;
+    font-family: system-ui;
+    background: rgb(207, 204, 204);
+    color: brown;
+
+    text-align: center;
+    margin: auto;
+    width: 30px;
+}
+*/
+@media screen and (max-width: 480px) {
+
+
+    .ul {
+        display: block;
+
+
+        width: 50%;
+    }
+
+
+}
